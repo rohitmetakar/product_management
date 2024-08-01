@@ -1,6 +1,6 @@
 # product_management
 A RESTful API for managing mongo DB, create user, product, category collaction.
-#Code structure
+# Code structure
     1. create app.js file for server
     2. create auth middleware file for verify user jwt token.
     3. create config file for database connection.
@@ -13,11 +13,11 @@ A RESTful API for managing mongo DB, create user, product, category collaction.
                 JWT_SECRET=your_jwt_secret
                 EMAIL_USER=maddison53@ethereal.email
                 EMAIL_PASS=jn7jnAPss4f63QBp6D
-#Database name : 
+# Database name : 
     product_management
-#project run :
+# Project run :
     npm run app.js
-#dependencies : 
+# dependencies : 
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.2",
     "config": "^3.3.12",
